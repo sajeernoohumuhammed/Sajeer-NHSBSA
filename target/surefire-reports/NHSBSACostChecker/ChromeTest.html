@@ -1,0 +1,1613 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>118/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Oct 24 18:47:03 SGT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>1602 seconds (1602814 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having working & child tax credit , income more than 15276 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-64612825" onClick='toggleBox("Output-64612825", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-64612825" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-64612825">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having pension savings credit and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1449407335" onClick='toggleBox("Output-1449407335", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1449407335" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1449407335">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having no benefits and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-405594154" onClick='toggleBox("Output-405594154", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-405594154" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-405594154">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having income related JSA", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1955808666" onClick='toggleBox("Output-1955808666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1955808666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1955808666">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based JSA and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-28607160" onClick='toggleBox("Output-28607160", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-28607160" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-28607160">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having income related ESA", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1096159579" onClick='toggleBox("Output-1096159579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1096159579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1096159579">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based JSA and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-280074151" onClick='toggleBox("Output-280074151", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-280074151" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-280074151">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having working tax credit its own and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-425506635" onClick='toggleBox("Output-425506635", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-425506635" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-425506635">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based ESA and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-798408334" onClick='toggleBox("Output-798408334", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-798408334" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-798408334">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income more than 15276 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-516759764" onClick='toggleBox("Output-516759764", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-516759764" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-516759764">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having working & child tax credit , income more than 15276 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-860722516" onClick='toggleBox("Output-860722516", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-860722516" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-860722516">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based ESA and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1479969581" onClick='toggleBox("Output-1479969581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1479969581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1479969581">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having pension savings credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1010789408" onClick='toggleBox("Output-1010789408", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1010789408" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1010789408">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having pension savings credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1409830700" onClick='toggleBox("Output-1409830700", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1409830700" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1409830700">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based JSA and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1316070740" onClick='toggleBox("Output-1316070740", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1316070740" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1316070740">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming universal credit benefits , take home pay not less than or equal 935 and and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1811457745" onClick='toggleBox("Output-1811457745", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1811457745" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1811457745">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having no benefits and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-714778803" onClick='toggleBox("Output-714778803", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-714778803" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-714778803">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having pension savings credit and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1427775536" onClick='toggleBox("Output-1427775536", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1427775536" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1427775536">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income 15276 or less", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1488044189" onClick='toggleBox("Output-1488044189", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1488044189" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1488044189">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming benefits but not getting mentioned items not taking home pay less than 435 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-2106831037" onClick='toggleBox("Output-2106831037", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2106831037" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2106831037">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based JSA and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1608465392" onClick='toggleBox("Output-1608465392", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1608465392" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1608465392">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working tax credit its own and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-669693659" onClick='toggleBox("Output-669693659", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-669693659" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-669693659">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having income support benefit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1112475771" onClick='toggleBox("Output-1112475771", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1112475771" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1112475771">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having pension guarnteed credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-581821595" onClick='toggleBox("Output-581821595", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-581821595" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-581821595">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having pension guarnteed credit with savings credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1765579019" onClick='toggleBox("Output-1765579019", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1765579019" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1765579019">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income more than 15276 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-24160840" onClick='toggleBox("Output-24160840", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-24160840" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-24160840">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based ESA and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1113811034" onClick='toggleBox("Output-1113811034", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1113811034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1113811034">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based ESA and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-144225186" onClick='toggleBox("Output-144225186", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-144225186" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-144225186">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income 15276 or less", "Optional[As a person from Wales]"<br/>
+<a href="#Output-356409860" onClick='toggleBox("Output-356409860", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-356409860" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-356409860">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having working tax credit its own and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1628988962" onClick='toggleBox("Output-1628988962", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1628988962" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1628988962">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming benefits", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1180585058" onClick='toggleBox("Output-1180585058", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1180585058" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1180585058">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having income related ESA", "Optional[As a person from Wales]"<br/>
+<a href="#Output-280233866" onClick='toggleBox("Output-280233866", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-280233866" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-280233866">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based JSA and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1292701007" onClick='toggleBox("Output-1292701007", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1292701007" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1292701007">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having working & child tax credit , income more than 15276 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-443457" onClick='toggleBox("Output-443457", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-443457" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-443457">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming benefits but not getting mentioned items not taking home pay less than 435 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-492488466" onClick='toggleBox("Output-492488466", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-492488466" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-492488466">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working tax credit its own and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1523639706" onClick='toggleBox("Output-1523639706", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1523639706" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1523639706">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having income related JSA", "Optional[As a person from Wales]"<br/>
+<a href="#Output-502785980" onClick='toggleBox("Output-502785980", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-502785980" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-502785980">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having pension savings credit and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-53063781" onClick='toggleBox("Output-53063781", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-53063781" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-53063781">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based JSA and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-870680500" onClick='toggleBox("Output-870680500", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-870680500" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-870680500">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having working & child tax credit , income more than 15276 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1859633542" onClick='toggleBox("Output-1859633542", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1859633542" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1859633542">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having working tax credit its own and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-956515922" onClick='toggleBox("Output-956515922", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-956515922" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-956515922">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based ESA and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1544120411" onClick='toggleBox("Output-1544120411", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1544120411" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1544120411">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having working & child tax credit , income 15276 or less", "Optional[As a person from Wales]"<br/>
+<a href="#Output-727649034" onClick='toggleBox("Output-727649034", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-727649034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-727649034">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having working & child tax credit , income more than 15276 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1456571015" onClick='toggleBox("Output-1456571015", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1456571015" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1456571015">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based JSA and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1498317334" onClick='toggleBox("Output-1498317334", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1498317334" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1498317334">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working tax credit its own and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-807404409" onClick='toggleBox("Output-807404409", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-807404409" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-807404409">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having pension savings credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-390509085" onClick='toggleBox("Output-390509085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-390509085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-390509085">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having working & child tax credit , income more than 15276 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-2128270209" onClick='toggleBox("Output-2128270209", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2128270209" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2128270209">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having pension savings credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-2094566788" onClick='toggleBox("Output-2094566788", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2094566788" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2094566788">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based JSA and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-865075155" onClick='toggleBox("Output-865075155", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-865075155" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-865075155">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having no benefits and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-764938951" onClick='toggleBox("Output-764938951", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-764938951" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-764938951">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income more than 15276 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-792809504" onClick='toggleBox("Output-792809504", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-792809504" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-792809504">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having working tax credit its own and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1513272144" onClick='toggleBox("Output-1513272144", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1513272144" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1513272144">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having income support benefit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-2138965276" onClick='toggleBox("Output-2138965276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2138965276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2138965276">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having income related ESA", "Optional[As a person from Wales]"<br/>
+<a href="#Output-976425041" onClick='toggleBox("Output-976425041", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-976425041" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-976425041">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based JSA and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-488973376" onClick='toggleBox("Output-488973376", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-488973376" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-488973376">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having no benefits and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-362708982" onClick='toggleBox("Output-362708982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-362708982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-362708982">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income 15276 or less", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1313897017" onClick='toggleBox("Output-1313897017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1313897017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1313897017">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income 15276 or less", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1610320786" onClick='toggleBox("Output-1610320786", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1610320786" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1610320786">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having pension savings credit and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-491941177" onClick='toggleBox("Output-491941177", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-491941177" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-491941177">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having pension guarnteed credit with savings credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1220602027" onClick='toggleBox("Output-1220602027", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1220602027" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1220602027">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working tax credit its own and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-426943260" onClick='toggleBox("Output-426943260", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-426943260" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-426943260">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having no benefits and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-398692268" onClick='toggleBox("Output-398692268", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-398692268" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-398692268">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based ESA and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1656027584" onClick='toggleBox("Output-1656027584", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1656027584" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1656027584">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based JSA and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1130758684" onClick='toggleBox("Output-1130758684", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1130758684" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1130758684">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having pension guarnteed credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-845373977" onClick='toggleBox("Output-845373977", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-845373977" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-845373977">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming benefits but not getting mentioned items and take home pay less than 435", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1253456077" onClick='toggleBox("Output-1253456077", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1253456077" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1253456077">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having pension savings credit and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1256711067" onClick='toggleBox("Output-1256711067", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1256711067" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1256711067">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based JSA and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-2038420993" onClick='toggleBox("Output-2038420993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2038420993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2038420993">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having working & child tax credit , income 15276 or less", "Optional[As a person from Wales]"<br/>
+<a href="#Output-250775666" onClick='toggleBox("Output-250775666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-250775666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-250775666">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having pension guarnteed credit with savings credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1128081598" onClick='toggleBox("Output-1128081598", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1128081598" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1128081598">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having income support benefit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1088193626" onClick='toggleBox("Output-1088193626", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1088193626" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1088193626">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based ESA and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-996731873" onClick='toggleBox("Output-996731873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-996731873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-996731873">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having pension guarnteed credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1714039483" onClick='toggleBox("Output-1714039483", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1714039483" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1714039483">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker different benefits other than universal credit payment, having contribution based ESA and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-384590973" onClick='toggleBox("Output-384590973", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-384590973" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-384590973">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based JSA and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-950592573" onClick='toggleBox("Output-950592573", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-950592573" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-950592573">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having pension savings credit and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-2131249822" onClick='toggleBox("Output-2131249822", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2131249822" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2131249822">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having no benefits and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-730423313" onClick='toggleBox("Output-730423313", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-730423313" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-730423313">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having income related ESA", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1769680096" onClick='toggleBox("Output-1769680096", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1769680096" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1769680096">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having no benefits and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1266231778" onClick='toggleBox("Output-1266231778", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1266231778" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1266231778">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having income related JSA", "Optional[As a person from Wales]"<br/>
+<a href="#Output-335195225" onClick='toggleBox("Output-335195225", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-335195225" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-335195225">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having pension savings credit and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-419812000" onClick='toggleBox("Output-419812000", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-419812000" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-419812000">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having pension savings credit and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-953014376" onClick='toggleBox("Output-953014376", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-953014376" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-953014376">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income more than 15276 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-776280820" onClick='toggleBox("Output-776280820", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-776280820" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-776280820">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming universal credit benefits , take home pay not less than or equal 935 and and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-2052279778" onClick='toggleBox("Output-2052279778", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2052279778" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2052279778">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having no benefits and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1063176940" onClick='toggleBox("Output-1063176940", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1063176940" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1063176940">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income more than 15276 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-2071279555" onClick='toggleBox("Output-2071279555", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2071279555" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2071279555">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having pension savings credit and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-309000657" onClick='toggleBox("Output-309000657", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-309000657" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-309000657">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming universal credit benefits , take home pay not less than or equal 935 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1559253069" onClick='toggleBox("Output-1559253069", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1559253069" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1559253069">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming universal credit benefits , take home pay not less than or equal 935 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-308837804" onClick='toggleBox("Output-308837804", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-308837804" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-308837804">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based ESA and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1599968921" onClick='toggleBox("Output-1599968921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1599968921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1599968921">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having working & child tax credit , income more than 15276 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-589753826" onClick='toggleBox("Output-589753826", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-589753826" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-589753826">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having working & child tax credit , income more than 15276 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1779037134" onClick='toggleBox("Output-1779037134", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1779037134" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1779037134">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker without claiming benefits", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1873273967" onClick='toggleBox("Output-1873273967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1873273967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1873273967">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming benefits but not getting mentioned items and take home pay less than 435", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1567091371" onClick='toggleBox("Output-1567091371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1567091371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1567091371">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having pension guarnteed credit with savings credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1987613621" onClick='toggleBox("Output-1987613621", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1987613621" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1987613621">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker without claiming benefits", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1511801545" onClick='toggleBox("Output-1511801545", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1511801545" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1511801545">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment and having pension guarnteed credit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-916303687" onClick='toggleBox("Output-916303687", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-916303687" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-916303687">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income more than 15276 and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1563201527" onClick='toggleBox("Output-1563201527", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1563201527" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1563201527">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having contribution based ESA and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1111214567" onClick='toggleBox("Output-1111214567", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1111214567" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1111214567">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having income support benefit", "Optional[As a person from Wales]"<br/>
+<a href="#Output-711753905" onClick='toggleBox("Output-711753905", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-711753905" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-711753905">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having working & child tax credit , income 15276 or less", "Optional[As a person from Wales]"<br/>
+<a href="#Output-535890991" onClick='toggleBox("Output-535890991", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-535890991" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-535890991">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment , having no benefits and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1142660293" onClick='toggleBox("Output-1142660293", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1142660293" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1142660293">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income more than 15276 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-620199188" onClick='toggleBox("Output-620199188", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-620199188" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-620199188">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming benefits", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1682172583" onClick='toggleBox("Output-1682172583", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1682172583" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1682172583">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having working & child tax credit , income 15276 or less", "Optional[As a person from Wales]"<br/>
+<a href="#Output-900524363" onClick='toggleBox("Output-900524363", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-900524363" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-900524363">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having contribution based ESA and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1505811239" onClick='toggleBox("Output-1505811239", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1505811239" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1505811239">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker different benefits other than universal credit payment, having contribution based ESA and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-374261412" onClick='toggleBox("Output-374261412", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-374261412" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-374261412">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming benefits but not getting mentioned items not taking home pay less than 435 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-447020623" onClick='toggleBox("Output-447020623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-447020623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-447020623">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having pension savings credit and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1847952585" onClick='toggleBox("Output-1847952585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1847952585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1847952585">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having no benefits and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-402791407" onClick='toggleBox("Output-402791407", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-402791407" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-402791407">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with claiming benefits but not getting mentioned items not taking home pay less than 435 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-532687918" onClick='toggleBox("Output-532687918", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-532687918" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-532687918">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied, having no benefits and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-2042104394" onClick='toggleBox("Output-2042104394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2042104394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2042104394">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having no benefits and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1111632304" onClick='toggleBox("Output-1111632304", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1111632304" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1111632304">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied and having income related JSA", "Optional[As a person from Wales]"<br/>
+<a href="#Output-557988273" onClick='toggleBox("Output-557988273", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-557988273" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-557988273">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with universal credit benefits applied , having working & child tax credit , income more than 15276 and live in care home with help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1008802517" onClick='toggleBox("Output-1008802517", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1008802517" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1008802517">
+Based on what you've told us
+You can apply for help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having pension savings credit and not live in care home", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1497641913" onClick='toggleBox("Output-1497641913", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1497641913" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1497641913">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+<tr>
+<td title='runner.TestRunner.scenario()'><b>scenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "NHS Eligibility checker with different benefits other than universal credit payment, having pension savings credit and live in care home with out help of local council", "Optional[As a person from Wales]"<br/>
+<a href="#Output-1119957823" onClick='toggleBox("Output-1119957823", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1119957823" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1119957823">
+Based on what you've told us
+You get help with NHS costs<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>runner.TestRunner@4bbfb90a</td></tr>
+</table><p>
+</body>
+</html>
